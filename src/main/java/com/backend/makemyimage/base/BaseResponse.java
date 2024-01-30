@@ -24,6 +24,10 @@ public class BaseResponse<T> { // BaseResponse 객체를 사용할때 성공, �
         return new BaseResponse<>(1000, true, "요청에 성공하였습니다.", result);
     }
 
+    public static <T> BaseResponse<T> onHeealty() {
+        return new BaseResponse<>(200, true, "건강합니다.", null);
+    }
+
     /**
      * 요청에 실패한 경우
      */

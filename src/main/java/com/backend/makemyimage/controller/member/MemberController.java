@@ -35,4 +35,9 @@ public class MemberController {
     public void create(@RequestBody MemberRequest req) {
         memberService.create(req);
     }
+
+    @GetMapping("/healty")
+    public BaseResponse<Integer> healtyEc2() {
+        return BaseResponse.onHeealty();
+    }
 }
