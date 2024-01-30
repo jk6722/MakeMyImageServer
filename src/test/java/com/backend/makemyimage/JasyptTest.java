@@ -1,12 +1,12 @@
 package com.backend.makemyimage;
 
-import org.assertj.core.api.Assertions;
-import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
-import org.jasypt.iv.RandomIvGenerator;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+//import org.assertj.core.api.Assertions;
+//import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
+//import org.jasypt.iv.RandomIvGenerator;
+//import org.junit.jupiter.api.DisplayName;
+//import org.junit.jupiter.api.Test;
 
-class JasyptTest {
+//class JasyptTest {
 
 //     @Test
 //     @DisplayName("DB정보 암호화 테스트")
@@ -34,4 +34,4 @@ class JasyptTest {
 //         pbeEnc.setIvGenerator(new RandomIvGenerator());
 //         return pbeEnc.encrypt(value);
 //     }
-}
+//}

@@ -1,25 +1,25 @@
 package com.backend.makemyimage;
 
-import com.backend.makemyimage.domain.member.Member;
-import com.backend.makemyimage.dto.request.member.LoginRequest;
-import com.backend.makemyimage.dto.request.member.MemberRequest;
-import com.backend.makemyimage.dto.response.member.LoginResponse;
-import com.backend.makemyimage.dto.response.member.MemberInfoResponse;
-import com.backend.makemyimage.repository.member.MemberRepository;
-import com.backend.makemyimage.service.member.MemberService;
-import jakarta.transaction.Transactional;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.Optional;
-
-import static org.assertj.core.api.Assertions.*;
+//import com.backend.makemyimage.domain.member.Member;
+//import com.backend.makemyimage.dto.request.member.LoginRequest;
+//import com.backend.makemyimage.dto.request.member.MemberRequest;
+//import com.backend.makemyimage.dto.response.member.LoginResponse;
+//import com.backend.makemyimage.dto.response.member.MemberInfoResponse;
+//import com.backend.makemyimage.repository.member.MemberRepository;
+//import com.backend.makemyimage.service.member.MemberService;
+//import jakarta.transaction.Transactional;
+//import org.junit.jupiter.api.DisplayName;
+//import org.junit.jupiter.api.Test;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//import java.util.Optional;
+//
+//import static org.assertj.core.api.Assertions.*;
 
 // @SpringBootTest
 // @Transactional
-public class MemberTest {
+//public class MemberTest {
 
     // @Autowired
     // private MemberRepository memberRepository;
@@ -79,4 +79,4 @@ public class MemberTest {
     //     memberService.create(memberRequest);
     //     return member;
     // }
-}
+//}

@@ -1,27 +1,27 @@
 package com.backend.makemyimage;
 
-import com.backend.makemyimage.domain.image.Image;
-import com.backend.makemyimage.domain.member.Member;
-import com.backend.makemyimage.dto.request.image.ImageRequest;
-import com.backend.makemyimage.dto.request.member.MemberRequest;
-import com.backend.makemyimage.dto.response.image.ImageListResponse;
-import com.backend.makemyimage.dto.response.image.ImageResponse;
-import com.backend.makemyimage.repository.image.ImageRepository;
-import com.backend.makemyimage.service.image.ImageService;
-import com.backend.makemyimage.service.member.MemberService;
-import jakarta.transaction.Transactional;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.List;
-
-import static org.assertj.core.api.Assertions.*;
+//import com.backend.makemyimage.domain.image.Image;
+//import com.backend.makemyimage.domain.member.Member;
+//import com.backend.makemyimage.dto.request.image.ImageRequest;
+//import com.backend.makemyimage.dto.request.member.MemberRequest;
+//import com.backend.makemyimage.dto.response.image.ImageListResponse;
+//import com.backend.makemyimage.dto.response.image.ImageResponse;
+//import com.backend.makemyimage.repository.image.ImageRepository;
+//import com.backend.makemyimage.service.image.ImageService;
+//import com.backend.makemyimage.service.member.MemberService;
+//import jakarta.transaction.Transactional;
+//import org.junit.jupiter.api.DisplayName;
+//import org.junit.jupiter.api.Test;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//import java.util.List;
+//
+//import static org.assertj.core.api.Assertions.*;
 
 // @SpringBootTest
 // @Transactional
-class ImageTest {
+//class ImageTest {
     // @Autowired
     // private ImageService imageService;
     // @Autowired
@@ -74,4 +74,4 @@ class ImageTest {
     //     memberService.create(memberRequest);
     //     return member;
     // }
-}
+//}

@@ -1,13 +1,13 @@
 package com.backend.makemyimage;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
 
 // @SpringBootTest
-class MakeMyImageApplicationTests {
+//class MakeMyImageApplicationTests {
 
     // @Test
     // void contextLoads() {
     // }
 
-}
+//}
