@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/auth")
-@CrossOrigin(origins = "make-my-image-app.vercel.app")
+@CrossOrigin(origins = "https://make-my-image-app.vercel.app")
 public class MemberController {
     private final MemberService memberService;
 
