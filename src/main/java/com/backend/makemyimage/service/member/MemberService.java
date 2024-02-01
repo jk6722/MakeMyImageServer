@@ -45,7 +45,7 @@ public class MemberService {
 
 //        String secretKey = "make-my-image";
 //        long expireTime = 1000 * 60 * 60; // 토큰 만료시간 = 60분
-        
+
         // Jwt accessToken 생성
         String accessToken = "access-token";
         return LoginResponse.builder()
@@ -61,12 +61,8 @@ public class MemberService {
             throw new IllegalArgumentException("잘못된 요청입니다.");
         }
 
-        Optional<Member> optionalMember = memberRepository.findByLoginId(loginId);
-        if(optionalMember.isEmpty()) {
-            throw new IllegalArgumentException("정보를 찾을 수 없습니다.");
-        }
-
-        Member findMember = optionalMember.get();
+        Member findMember = memberRepository.findByLoginId(loginId)
+                .orElseThrow(() -> new IllegalArgumentException("회원을 찾을 수 없습니다"));
 
         return MemberInfoResponse.builder()
                 .loginId(findMember.getLoginId())
